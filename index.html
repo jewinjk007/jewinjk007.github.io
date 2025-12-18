@@ -21,6 +21,8 @@
     <!-- Navbar -->
     <header class="site-header" id="siteHeader">
       <div class="site-inner container">
+
+        <!-- Logo Div-->
         <div class="logo-container left">
           <p class="name-logo">
             <span class="logo">&lt;/&gt;</span>
@@ -58,15 +60,19 @@
             </li>
           </ul>
         </nav>
+
       </div>
     </header>
 
     <main>
+
       <!-- Hero -->
       <section id="home" class="hero section">
+
+        <!-- Left section -->
         <div class="hero-inner container">
           <div class="hero-text">
-            <h1 class="heading">Jewin Jinson</h1>
+            <h1 class="heading" id="typingText">Jewin Jinson</h1>
             <p class="lead">
               Computer Science Engineering student passionate about AI, Machine
               Learning, and building innovative solutions through code and
@@ -74,10 +80,15 @@
             </p>
             <div class="cta">
               <a href="#about" class="btn primary-btn">About Me</a>
-              <a href="https://drive.google.com/file/d/1pcuqGY4RBWZc3BM-9wJlBCbPdY9t1LQv/view?usp=sharing" class="btn secondary-btn">Resume</a>
+              <a
+                href="https://drive.google.com/file/d/1pcuqGY4RBWZc3BM-9wJlBCbPdY9t1LQv/view?usp=sharing"
+                class="btn secondary-btn">
+                Resume
+              </a>
             </div>
           </div>
-
+          
+          <!-- Image Section -->
           <div class="hero-card">
             <div class="profile-ring">
               <img
@@ -94,6 +105,7 @@
 
       <!-- About -->
       <section id="about" class="about-section">
+
         <div class="container">
           <h2 class="section-title">About Me</h2>
           <p class="section-subtitle">
@@ -103,8 +115,8 @@
             intelligent systems.
           </p>
 
+          <!-- Left Description -->
           <div class="about-grid">
-            <!-- Left column -->
             <div class="about-text">
               <h3>My Journey</h3>
               <p>
@@ -127,7 +139,7 @@
               </p>
             </div>
 
-            <!-- Right column -->
+            <!-- Right Grid -->
             <div class="about-cards">
               <div class="about-card">
                 <h4>AI & Machine Learning</h4>
@@ -139,7 +151,7 @@
               <div class="about-card">
                 <h4>Software Engineering</h4>
                 <p>
-                  Full-stack development, algorithms, data structures, and
+                  Frontend Development, algorithms, data structures, and
                   system design.
                 </p>
               </div>
@@ -151,12 +163,14 @@
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </section>
 
       <!-- Education -->
       <section id="education" class="education-section container">
+
         <div>
           <h2 class="section-title">Education & Achievements</h2>
           <p class="section-subtitle">
@@ -166,6 +180,8 @@
 
           <!-- Academic Background -->
           <h3 class="subheading">Academic Background</h3>
+
+          <!-- College Info -->
           <div class="edu-card">
             <div class="edu-header">
               <h4>Bachelor of Technology in Computer Science Engineering</h4>
@@ -180,8 +196,6 @@
             <div class="edu-tags">
               <span>Machine Learning</span>
               <span>Deep Learning</span>
-              <span>Computer Vision</span>
-              <span>Natural Language Processing</span>
               <span>Data Structures & Algorithms</span>
               <span>Database Management Systems</span>
               <span>Operating Systems</span>
@@ -193,6 +207,7 @@
             </div>
           </div>
 
+          <!-- School Info -->
           <div class="edu-card">
             <div class="edu-header">
               <h4>Higher Secondary Certificate (12th Grade)</h4>
@@ -204,6 +219,7 @@
               <span class="gpa">Percentage: 96.4%</span>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -211,10 +227,13 @@
       <section id="projects_skills" class="projects_skills">
         <div id="projects" class="projects-section container">
           <div>
-            <h2 class="section-title">Projects</h2>
+            <div class="section-header">
+              <h2 class="section-title">Projects</h2>
+              <p></p>
+            </div>
 
             <div class="projects-grid">
-
+              
               <!-- Project 1 -->
               <article class="project-card">
                 <img
@@ -236,23 +255,12 @@
                     <span>JavaScript</span>
                   </div>
                   <div class="project-links">
-                    <a href="#" class="btn small-btn primary-btn project-btn"
-                      >Code</a
-                    >
-                    <a href="#" class="btn small-btn primary-btn project-btn"
-                      >Demo</a
-                    >
+                    <a href="https://github.com/jewinjk007/jewinjk007.github.io" class="btn small-btn primary-btn project-btn">
+                      Site
+                    </a>
                   </div>
                 </div>
               </article>
-              <!-- <div id="myModal" class="modal">
-                <div class="modal-content">
-                  <h2>Portfolio Website</h2>
-                  <span class="close-btn">&times;</span>
-                  <p>A responsive and accessible portfolio website built with HTML & CSS to showcase my skills,
-                    projects, and journey as a developer.</p>
-                </div>
-              </div>  -->
 
               <!-- Project 2 -->
               <article class="project-card">
@@ -276,33 +284,20 @@
                     <span>File Handling</span>
                     <span>Multiple libraries</span>
                   </div>
-                  <div class="project-links">
-                    <a href="#" class="btn small-btn primary-btn project-btn"
-                      >Code</a
-                    >
-                    <a href="#" class="btn small-btn primary-btn project-btn"
-                      >Demo</a
-                    >
-                  </div>
                 </div>
               </article>
 
               <!-- Project 3 -->
               <article class="project-card">
-                <img
-                  src="restaurant.jpeg"
-                  alt="Restaurant Management System"
-                  class="project-image"
-                  style="width: 100%; border-radius: 0.5em"
-                />
                 <div class="project-content">
-                  <h3 class="project-title">Restaurant Management System</h3>
+                  <h3 class="project-title">
+                    Student Performance Prediction Model
+                  </h3>
                   <p class="project-description">
-                    A simple Python-based application to manage restaurant
-                    operations, including handling customer orders, maintaining
-                    menu items, and storing records. It streamlines basic
-                    restaurant tasks by providing functionality for order
-                    processing and file-based data storage.
+                    A beginner machine learning project using Kaggle's student 
+                    performance dataset to predict academic outcomes. 
+                    I explored data preprocessing, model training, and 
+                    compared linear and tree-based models.
                   </p>
                   <div class="project-tags">
                     <span>Python</span>
@@ -310,15 +305,60 @@
                     <span>Multiple libraries</span>
                   </div>
                   <div class="project-links">
-                    <a href="#" class="btn small-btn primary-btn project-btn"
-                      >Code</a
-                    >
-                    <a href="#" class="btn small-btn primary-btn project-btn"
-                      >Demo</a
-                    >
+                    <a href="https://github.com/jewinjk007/neuron_club.git" class="btn small-btn primary-btn project-btn">
+                      GitHub
+                    </a>
                   </div>
                 </div>
               </article>
+
+              <!-- Project 4 -->
+              <article class="project-card">
+                <div class="project-content">
+                  <h3 class="project-title">Stock Price Prediction Model</h3>
+                  <p class="project-description">
+                    An academic project where I built an LSTM-Transformer model to 
+                    predict stock prices using real-time API data. This project helped me 
+                    understand time-series data, sequence models, and teamwork in machine learning.
+                  </p>
+                  <div class="project-tags">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Albert2006-sys/new-stockpredictor-model.git" class="btn small-btn primary-btn project-btn">
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 5 -->
+              <article class="project-card">
+                <img
+                  src=".\assets\movieReview.png"
+                  alt="Movie Review Site"
+                  class="project-image"
+                  style="width: 100%; border-radius: 0.5em"
+                />
+                <div class="project-content">
+                  <h3 class="project-title">Movie Review Site</h3>
+                  <p class="project-description">
+                    A simple and aesthetic movie review website built using HTML and CSS,
+                    focused on clean design and easy navigation for users.
+                  </p>
+                  <div class="project-tags">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/jewinjk007/movie-review-page.git" class="btn small-btn primary-btn project-btn">
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </article>
+
             </div>
           </div>
         </div>
@@ -326,7 +366,10 @@
         <!-- Skills -->
         <div id="skills" class="skills-section container">
           <div>
-            <h2 class="section-title">Skills</h2>
+            <div class="section-header">
+              <h2>Skills</h2>
+              <p></p>
+            </div>
 
             <div class="skills-grid">
               <!-- Languages -->
@@ -337,6 +380,7 @@
                   <li><i class="lab la-python"></i> Python</li>
                   <li><i class="lab la-java"></i> Java</li>
                   <li><i class="lab la-js"></i> JavaScript</li>
+                  <li><i class="las la-terminal"></i> C</li>
                 </ul>
               </div>
 
@@ -354,7 +398,8 @@
                 <h3>Technologies</h3>
                 <ul>
                   <li><i class="las la-database"></i> MySQL</li>
-                  <li><i class="las la-project-diagram"></i> n8n</li>                </ul>
+                  <li><i class="las la-project-diagram"></i> n8n</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -633,229 +678,6 @@
     </footer>
 
     <!--JavaScript-->
-    <script>
-      (function () {
-        const header = document.getElementById("siteHeader");
-        const toggle = document.getElementById("menuToggle");
-        const nav = document.getElementById("mainNav");
-        const form = document.querySelector(
-          "form[action='https://api.web3forms.com/submit']"
-        );
-        const status = document.getElementById("form-status");
-
-        /* Header Scroll Shadow */
-        if (header) {
-          const onScroll = () =>
-            header.classList.toggle("scrolled", window.scrollY > 2);
-          window.addEventListener("scroll", onScroll, { passive: true });
-          onScroll();
-        }
-
-        /* Mobile Menu Toggle */
-        if (toggle && nav && header) {
-          toggle.addEventListener("click", () => {
-            const open = header.classList.toggle("nav-open");
-            toggle.setAttribute("aria-expanded", String(open));
-            toggle.setAttribute(
-              "aria-label",
-              open ? "Close navigation" : "Open navigation"
-            );
-            if (open) {
-              const firstLink = nav.querySelector("a");
-              if (firstLink) firstLink.focus();
-            }
-          });
-
-          // Close menu on nav link click
-          nav.addEventListener("click", (e) => {
-            if (
-              e.target.tagName === "A" &&
-              header.classList.contains("nav-open")
-            ) {
-              toggle.click();
-            }
-          });
-
-          // Close menu on ESC key
-          document.addEventListener("keydown", (e) => {
-            if (e.key === "Escape" && header.classList.contains("nav-open")) {
-              toggle.click();
-              toggle.focus();
-            }
-          });
-        }
-
-        // Contact Form Handling with Web3Forms
-        if (form) {
-          form.addEventListener("submit", async (e) => {
-            e.preventDefault();
-
-            try {
-              const submitBtn = form.querySelector('button[type="submit"]');
-              const originalBtnText = submitBtn ? submitBtn.innerHTML : "";
-
-              // Show loading state
-              if (submitBtn) {
-                submitBtn.disabled = true;
-                submitBtn.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" viewBox="0 0 24 24" fill="currentColor" style="animation: spin 1s linear infinite;">
-              <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
-            </svg>
-            Sending...
-          `;
-              }
-
-              // Create status element if it doesn't exist
-              let statusElement = status;
-              if (!statusElement) {
-                statusElement = document.createElement("div");
-                statusElement.id = "form-status";
-                statusElement.style.marginTop = "15px";
-                statusElement.style.padding = "12px";
-                statusElement.style.borderRadius = "8px";
-                statusElement.style.fontSize = "14px";
-                statusElement.style.lineHeight = "1.6";
-                form.appendChild(statusElement);
-              }
-
-              statusElement.textContent = "📤 Sending your message...";
-              statusElement.style.backgroundColor = "#d1ecf1";
-              statusElement.style.color = "#0c5460";
-              statusElement.style.border = "1px solid #bee5eb";
-              statusElement.style.display = "block";
-
-              // Get form data
-              const formData = new FormData(form);
-
-              // Convert FormData to JSON object
-              const object = {};
-              formData.forEach((value, key) => {
-                object[key] = value;
-              });
-              const json = JSON.stringify(object);
-
-              // Send to Web3Forms API
-              const response = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json",
-                  Accept: "application/json",
-                },
-                body: json,
-              });
-
-              const result = await response.json();
-
-              if (result.success) {
-                const userEmail = object.email || "your email";
-                statusElement.innerHTML = `
-            <div>
-              <strong>Message sent successfully!</strong><br>
-              Thank you for reaching out. I'll get back to you soon at ${userEmail}.
-            </div>
-          `;
-                statusElement.style.backgroundColor = "#d4edda";
-                statusElement.style.color = "#155724";
-                statusElement.style.border = "1px solid #c3e6cb";
-
-                // Reset form
-                form.reset();
-
-                // Scroll to status message smoothly
-                statusElement.scrollIntoView({
-                  behavior: "smooth",
-                  block: "nearest",
-                });
-
-                // Hide success message after 8 seconds
-                setTimeout(() => {
-                  statusElement.style.display = "none";
-                }, 8000);
-              } else {
-                // Error from server
-                throw new Error(result.message || "Submission failed");
-              }
-
-              // Reset button
-              if (submitBtn) {
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = originalBtnText;
-              }
-            } catch (error) {
-              console.error("Form submission error:", error);
-
-              const submitBtn = form.querySelector('button[type="submit"]');
-              const to = "jewinjinson43@gmail.com";
-
-              let statusElement = status;
-              if (!statusElement) {
-                statusElement = document.createElement("div");
-                statusElement.id = "form-status";
-                statusElement.style.marginTop = "15px";
-                statusElement.style.padding = "12px";
-                statusElement.style.borderRadius = "8px";
-                statusElement.style.fontSize = "14px";
-                statusElement.style.lineHeight = "1.6";
-                form.appendChild(statusElement);
-              }
-
-              statusElement.innerHTML = `
-          <div>
-            <strong>Failed to send message.</strong><br>
-            Please try again or email me directly at: <strong>${to}</strong><br><br>
-            <button onclick="copyEmailToClipboard('${to}')" style="padding: 8px 16px; background: #B0684E; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 500;">
-              Copy Email
-            </button>
-          </div>
-        `;
-              statusElement.style.backgroundColor = "#f8d7da";
-              statusElement.style.color = "#721c24";
-              statusElement.style.border = "1px solid #f5c6cb";
-              statusElement.style.display = "block";
-
-              // Reset button
-              if (submitBtn) {
-                submitBtn.disabled = false;
-                submitBtn.innerHTML =
-                  originalBtnText ||
-                  `
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M9.999 16.2L9.8 19.6c.4 0 .6-.2.9-.4l2.2-2.1 4.6 3.4c.8.4 1.4.2 1.6-.7l3-14c.3-1.1-.4-1.6-1.2-1.3L2.8 9.7c-1 .4-1 1 .1 1.3l5.6 1.7 10.2-6.4c.5-.3.9 0 .5.3l-9.2 9.6z"/>
-            </svg>
-            Send Message
-          `;
-              }
-            }
-          });
-        }
-
-        // Helper function for copy button
-        window.copyEmailToClipboard = function (email) {
-          if (navigator.clipboard) {
-            navigator.clipboard
-              .writeText(email)
-              .then(() => {
-                alert("Email address copied to clipboard!");
-              })
-              .catch(() => {
-                prompt("Copy this email address:", email);
-              });
-          } else {
-            // Fallback for older browsers
-            prompt("Copy this email address:", email);
-          }
-        };
-
-        // Add CSS for spinning animation
-        const style = document.createElement("style");
-        style.textContent = `
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-  `;
-        document.head.appendChild(style);
-      })();
-    </script>
+    <script src="./main.js"></script>
   </body>
 </html>
