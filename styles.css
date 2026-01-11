@@ -584,6 +584,45 @@ body {
   }
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.project-tags span {
+  color: #51555B;
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: relative;
+  padding-left: 16px;
+  transition: color 0.3s ease;
+}
+
+.project-tags span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: #446FA0;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.project-tags span:hover {
+  color: #223C60;
+}
+
+.project-tags span:hover::before {
+  width: 12px;
+  height: 12px;
+  background: #B0684E;
+}
 
 .project-card {
   background: var(--card-bg);
