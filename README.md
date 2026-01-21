@@ -37,8 +37,6 @@ portfolio/
 **Jewin Jinson** 
 Portfolio: [https://jewinjk007.github.io/](https://jewinjk007.github.io/)
 
-Project Link: [https://github.com/yourusername/portfolio](https://github.com/jewinjk007/jewinjk007.github.io.git)
-
 ### Acknowledgments
 
 - [Web3Forms](https://web3forms.com) - Contact form backend
